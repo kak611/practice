@@ -1,0 +1,16 @@
+sample offline data (from book)
+sample online data (from book)
+
+Permutation:
+using Tushar roy's unique and lexicograpic algorithm
+using recursive algorithm from book
+using next permutation logic
+Generate next permutation
+Generate random permutation using two ways as given in book
+
+Combination:
+generate powerset (all possible combinations of all length)
+generate random subset (2 solutions as per book)
+generate powerset using binary (2 methods)
+generate combinations of size k from given set n  (DP problem 'American football' is similar in logic to this one from the book)
+

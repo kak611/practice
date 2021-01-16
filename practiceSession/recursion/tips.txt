@@ -1,0 +1,9 @@
+1. Identify if a problem can be solved recursively (if an instance of problem can be solved repetitively to get to the solution of entire problem)
+2. Identify base case
+3. Identify recurrence-relation that leads to base case
+
+Know tail-recursion (recursion func called at the end is tail-recursion and it does not create internal stack so uses O(1) space)
+
+Examples: all permutation, combination/subset, n-queen, sudoku, tower of hanoi type problems are solved using recursion
+
+Know Master theorem

@@ -1,0 +1,3 @@
+Know how to implement quicksort, mergesort, heapsort, insertion sort
+
+Usually problems related to sorting are either to sort (using existing library) and simplify the problem to solve OR use data structures such as Heap, Hashtable, BST

@@ -1,0 +1,45 @@
+solve a problem from queues 9.7. In this, given a binary tree, create an array such that the elements appear in sorted orders with sort key being depth of the tree & elements appearing left to right
+
+set of problems with similar solutions
+
+==
+1. Buy and sell stock only once
+2. Buy and sell stock twice (use DP)
+3. Buy and sell stock n times
+4. Buy and sell stock k times (use DP)
+
+5. Find subArray with max sum in an array (DP solution kinda similar to problem 3. above)
+   1. Another solution using subArray & finding max of each subarray
+   2. Another using divide and conquer method (Math.max(left_subarr, right_subarr, cross_sum))
+
+== 
+Find ALL permutation O(n!)
+  1. Tushar Roy's solution for duplicate chars/numbers in given input
+  2. book solution
+  3. CTCI solution O(n^2 * n!)
+Find combination O((N-k)! / (N-1)!(k!))
+  1. Tushar Roy's solution
+Find Subset (ALL combinations) O(2^n)
+  1. book recursive solution
+  2. book solution using bitmask
+  3. leetcode iterative solution
+Find subarray
+  1. Iterative solution O(n^2)
+  2. Recursive solution
+
+NOTE: 
+ 1. A subsequence could be or could not be contagious sequence (A,B,C OR A,C for set of A,B,C,D)
+ 2. A contagious subsequence means subarray (A,B OR B,C but NOT A,C OR NOT B,A)
+ 3. All subsequences of given set is all subsets OR in other words powerSet of set
+
+==
+Find two sum  
+Find three sum
+
+==
+Dutch National Flag problem
+  1. Brute-force method
+  2. Using three pointers (first, separate < with >= elements, then in >= elements, separate > with = elements)
+  3. Using classification technique with pointers
+
+

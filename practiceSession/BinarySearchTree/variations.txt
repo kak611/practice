@@ -1,0 +1,18 @@
+Know TreeMap (is a self-balancing red-black tree)
+
+Know TreeSet (based on TreeMap in Java)
+	public TreeSet() {
+	  this(new TreeMap<E,Object>());
+	}
+
+Construct a BST (need not be balanced tree)
+
+== Red-Black Tree ==
+Know what is red-black tree (self-balancing BST which ensures o(h) insertion, deletion, lookup, etc).
+Know properties of red-black tree
+	1. Root & leaves (leaves in red-black tree are null-nodes) are black node
+	2. Each node is either red or black
+	3. children of red node are black. (i.e. no two adjacent nodes can be red)
+	4. Every path from a node to null nodes has same number of black nodes
+know insertion in red-black tree
+know deletion in red-black tree

@@ -1,0 +1,115 @@
+Thinking in terms of binary
+===========================
+Suppose, n = 4
+So total number of subsets are 2^n = 2^4 = 16
+
+Lets answer following questions:
+What does it mean there are 16 subsets of set of 4 elements (say A = {3,5,8,9})?
+	It means that there are 16 possible combinations of given set. We will see this in detail in later section.
+
+What is the content of each subset?
+	Now in terms of binary, it means for 16, subset range is 0..15.
+	And each subset 0, subset 1,.. subset 15, is a combination of some elements from original set.
+
+How to find the content or elements in each subset?
+	For subset 5, it is represented as 0...0101 (32-bit representation) in binary,
+		the bit set to 1 indicates the index of the number to be present in 5th subset.
+		So in this case, index 0 & 2 are set to 1.
+		So, content of 5th subset is A[0] = 3, A[2] = 5
+
+How to calculate the index from the set bit for given subset?
+	There are two methods:
+	1. Take 1 and move it j bits left. Then AND it with another 1. If the output is > 0 then its jth index.
+		if (1 & (1 << j)) > 0 then jth index is part of subset
+		// Iterate through each of 2^n subsets
+		for (int i=0; i < (1 << arr.length); i++) {
+		  // iterate 0..n indexes only because array size is n elements and we cant get indexOutOfBound element for susbet
+		  for (int j=0; j < n; j++) {
+		  // for e.g, for subset 5, required index are 0 & 2. 
+		  // However, for input array of length 2, index range is 0..1. So, we cant get index2
+		  // and also there is no 5th subset as 2^2 = 4 which means only 4 subsets		  
+			if ((1 & (1 << j)) > 0) {
+				// add element at jth index to subset
+				subset.add(A[j])
+			}
+		  }
+		}
+	2. Another method, isolate lowest bit using formula x & ~(x-1). The output is an integer (NOT index).
+	   To find index, take log base2 of integer i.e. log(base 10)Integer/log(base 10)2
+
+Thinking in terms of combinations		
+=================================
+how is this related to combinations? What is relation between subset and combination?
+	There are 2^4 = 16 subsets of set of 4 elements i.e. all possible combinations of set of 4 elements.
+	It means that there are 16 possible combinations of given set i.e.,
+	choose 0 from 4 elements = 1  (how? n!/(n-k)!*k! = 4!/4!*0! = 1)
+	choose 1 from 4 elements = 4  (how? 4!/3!*1! = 4) 	
+	choose 2 from 4 elements = 6  (how? 4!/2!*2! = 6)
+  	choose 3 from 4 elements = 4  (how? 4!/1!*3! = 4)
+	choose 4 from 4 elements = 1  (how? 4!/0!*4! = 1)
+	Add all => 1+4+6+4+1 = 16
+
+
+What does that mean?
+    lets try to understand combination & permutation:
+
+    Combination:
+	The formula to calcuate combinations is n!/(n-k)!*k!
+	Assume that there are 2 distinct elements A,B
+		 To choose 1 from 2 elements,
+			either choose A from AB OR choose B from AB
+			Total combinations = (A) + (B) = 2
+	Assume that there are 3 distinct elements A,B,C
+		 To choose 2 from 3 elements,
+			either choose AB from ABC OR choose BC from ABC OR choose AC from ABC 
+			Total combinations = 3 (how? 3!/1!*2! = 3)
+			Note that, AB = BA, BC = CB, AC = CA. Ordering is not important. So, permuatation formula * (1/k!)
+
+    Permutation:
+	The formula to calcuate permutations is n!/(n-k)! because AB != BA in permutation. Ordering matters!
+	Assume that there are 3 distinct elements A,B,C. So there are 6 permutations of 3 elements (each ordering is considered!)
+		Permutation => ABC, ACB, BAC, BCA, CAB, CBA (3!/0! = 6)
+		Combination => ABC (3!/0!*3! = 1) because ABC = ACB = BAC = BCA = CAB = CBA
+			That means, output of combination could be any value in (ABC, ACB, BAC, BCA, CAB, CBA)
+		Subset => [], [A], [B], [C], [AB], [CB], [AC], [ABC]
+			Note, the 6th element could be CB or BC.. i.e ordering doesnt matter
+			Note, subset means all possible length combination
+			Note, subset (no ordering) is not same as subsequence (ordering is important)
+			Any subarray is subsequence, any subsequence is subset but the reverse is not true.
+			(https://www.techiedelight.com/difference-between-subarray-subsequence-subset/)	
+		 Arrange 1 from 2 elements i.e. select any 1 from 2 elements to fill first place _ _
+			either choose A from AB OR choose B from AB
+			Total combinations = (A) + (B) = 2
+
+
+	Assume that there are 3 distinct & 1 duplicate elements A,A,B,C. 
+	So there are 12 permutations of 4 elements considering duplicates (4!/2! = 12)
+	Assume that there are 3 distinct & 1 duplicate elements A,A,B,B,B,C. 
+	So there are 60 permutations of 4 elements considering duplicates (6!/2!*3! = 60)
+
+What about combination of duplicates?
+what about permutation and combination of 2 out of 4 elements OR 3 out of 4 elements?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

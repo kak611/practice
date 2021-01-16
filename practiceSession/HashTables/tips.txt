@@ -1,0 +1,5 @@
+Simple but tricky problems
+
+Use hash-table to simplify the algorithm
+
+Most of the problems that could be solve using hashtable have array of strings as input

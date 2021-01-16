@@ -1,0 +1,4 @@
+Usually related to sorted inputs
+
+BST insertion, deletion, lookup, min, max, next greater/smaller is O(logn) so use it to reduce complexity.
+

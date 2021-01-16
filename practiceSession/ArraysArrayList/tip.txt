@@ -1,0 +1,1 @@
+Most of the problems related to array can be solved using hash table/extra array  OR using two pointers

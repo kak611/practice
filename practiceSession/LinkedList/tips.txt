@@ -1,0 +1,3 @@
+For problems that require to return head node, always create a new dummyNode that points to head/first node. (dummynode.next = first)
+
+Know how to reverse a linklist, how to reverse a sublist, how to insertion sort a linked list where swaping two nodes is required.

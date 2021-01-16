@@ -1,0 +1,55 @@
+Q. Write a function to traverse n-ary tree given the input n & d where,
+	n = number of branches
+	d = depth (begins with zero), (level begins with 1)
+	Hint: Write using BFS & DFS
+
+
+Q. Write a function to generate a n-ary tree, given the input n, d & iterator of integers
+
+	n = number of branches
+	d = depth (begins with zero), (level begins with 1)
+	Iterator iterates infinite incoming integers
+	Hint: Write using BFS & DFS
+
+
+Q. Now, given a string abc, write a function to generate strings of length=2 with repetition allowed.
+(same question for permutation of abc for length=3)
+
+Hint: 
+	length of string is branches
+	length=2 is depth
+	Hint: Traverse using DFS
+
+Ans: 
+	This is called a decision tree. root node will be null because no decision is made
+
+			  --ROOT--           depth 0, (no decision made)
+			 /    |   \          
+			 a    b    c         depth 1, (how many ways to fill first position _ _ of length 2 with repetition allowed)
+			/|\  /|\  /|\
+                        abc  abc  abc        depth 2, (how many ways to fill second position x _ of length 2 with repetition allowed)
+
+(Output: aa, ab, ac, ba, bb, bc, ca, cb, cc)
+
+
+
+Q. Now, given a string abc, write a function to generate strings of length=2 WITHOUT repetition allowed.
+(same question for permutation of abc for length=3)
+
+Hint: 
+	length of string is branches
+	length=2 is depth
+	Hint: Traverse using DFS
+
+Ans: 
+	This is called a decision tree. root node will be null because no decision is made
+
+			  --ROOT--           depth 0, (no decision made)
+			 /    |   \          
+			 a    b    c         depth 1, (how many ways to fill first position _ _ of length 2)
+			/\   /\   /\
+                        bc   ac   ab        depth 2, (how many ways to fill second position x _ of length 2)
+(Output: ab, ac, ba, bc, ca, cb)
+                           
+
+	

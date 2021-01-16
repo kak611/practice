@@ -1,0 +1,16 @@
+Implement Binary tree in level order (complete binary tree) and print 2D
+Implement following traversals of Binary Tree:
+	preorder (DFS traversal simulate stack using recursion)
+	inorder (DFS traversal simulate stack using recursion)
+	postorder (DFS traversal simulate stack using recursion)
+Implement inorder travesal iteratively in O(1) space
+Print Binary tree in level-order traversal (see Tushar Roy's video)
+
+Todo:
+Insert node in Binary tree in level order 
+	(While level order traversal (i.e. using queue), if a node's left child is empty add new node, if node's right child is empty add new node; else continue to next node)
+
+Delete node in Binary Tree:
+	While level order traversal (i.e. using queue), Find the deepest and rightmost element E in the tree. Swap E with the element to be deleted. Delete E.
+
+Trie data structure

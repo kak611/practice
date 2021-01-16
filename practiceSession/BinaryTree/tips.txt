@@ -1,0 +1,5 @@
+Most of the binary tree problems can be solved using tree traversals or level-ordering traversal OR visiting left-subtree and/or right/subtree
+
+know tree traversal using queue (BFS)
+
+Know inorder traversal iteratively

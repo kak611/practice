@@ -1,0 +1,14 @@
+Try to cover unattended sections
+
+Today and tomorrow:
+complete all DP problems from variation.txt (MUST)
+read all greedy algorithm problems (MUST)
+
+Friday (21 Feb) to sunday (23 Feb):
+complete graph theory (MUST)
+
+From tomorrow till sunday:
+complete system design theory (MUST)
+
+from today till sunday:
+read BST or binary tree problems and try to solve in mind

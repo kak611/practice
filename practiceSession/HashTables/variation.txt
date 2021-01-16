@@ -1,0 +1,14 @@
+{{-1, 1, 0}, {1,0,-1}, {0,2,-2}}
+Implement logic to convert above list of list into unique list of list such that ordering doesnt matter, so -1,1,0 == 1,0,-1
+Output: {{-1, 1, 0}, {0, 2,-2}}
+Hint: look for design of hashtable class in book
+	OR
+Two list of list of integers are equal (List<List<Integer>>)
+	Condition1: elements of list can be in any order [1,-1,0] is same as [1,0,-1]
+	condition2: repeated elements are considered as one element in a list [1,0,-1,1] is same as [1,0,-1]
+
+Find all subarrays of given array (time complexity: O(n2))
+
+Implement HashMap/HashSet (uses Hashmap internally)
+
+Implement LinkedHashMap/LinkedHashSet

@@ -1,0 +1,5 @@
+Implement Heaps i.e. complete binary tree (getMin, extractMin, insert, delete, etc)
+Implement PriorityQueue
+given an array, check if its a heap
+given a Binary Tree, check if its a heap
+construct heap from given array

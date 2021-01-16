@@ -1,0 +1,11 @@
+1. Complete all pending ArrayList questions (5)	
+	6.11 - 6.17
+2. Complete all pending BT questions (7)
+3. Try solving every problem starting with brute-force to optimizing
+
+Tomorrow:
+1. Work on DP -- read Buy And Sell k times DP
+2. Solve 6-7 DP questions that we read already
+3. Identify all subseq,subarray type problems
+4. Read those problems and solutions
+5. Cover 2-3 Greedy/Invariant algorithm questions

@@ -1,0 +1,26 @@
+Why do we need a comparator for binarysearch? isnt binarysearch applied on already sorted array where it will keep on eliminating half of the array till it finds or not finds the element?
+Difference between equals method and compareTo and compare method. Why equals dont use comparable or comparator? why are there two/three different things?
+
+List.sort, collections.sort, Arrays.sort
+How Arrays.equals() work?
+
+Arrays.binarySearch, Collections.binarySearch and their return values
+Why we pass comparator to binarySearch?
+how Collections.reverseOrder works? why it returns comparator?
+list.binarySearch() for ArrayList have o(logn) complexity because positional access is constant time whereas for LinkedList it is o(n)
+HashSet implementation
+TreeSet
+ArrayList.contains(e)
+LinkedList.contains(e)
+
+
+
+What is transitive property? why it is important for search algorithms?
+Other properties -- reflexive,symmetric, consistent
+Ans: 
+	Java SE defines a contract that our implementation of the equals() method must fulfill. 
+	Most of the criteria are common sense. The equals() method must be:
+	reflexive: an object must equal itself
+	symmetric: x.equals(y) must return the same result as y.equals(x)
+	transitive: if x.equals(y) and y.equals(z) then also x.equals(z)
+	consistent: the value of equals() should change only if a property that is contained in equals() changes (no randomness allowed)

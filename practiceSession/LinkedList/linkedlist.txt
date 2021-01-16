@@ -1,0 +1,19 @@
+Note:
+The only thing need to take precaution in linkedlist is to handle corner cases i.e. the start and the end node pointing to null
+
+For that reason, we use dummyhead with a val=0 and next point to first node or head.
+dummyhead is also used to keep track of head of a list
+
+reverse ll iteratively
+reverse ll recursively
+reverse sublist using o(n) space 
+reverse sublist using o(1) space (tricky)
+revere k nodes at a time
+
+sll -- DONE
+stack using sll
+implement double-ended ll
+implementation of dll in Java
+queue using double-ended ll
+doubly-linked list
+iterator using dll

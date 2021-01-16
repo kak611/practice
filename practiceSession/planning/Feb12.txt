@@ -1,0 +1,6 @@
+Todays target:
+Read & complete System design theory
+solve subsequence problem from leetcode
+solve all problems read yesterday (check feb11)
+Solve backlog problems (2 dp & 1 bst delete/insert)
+Understand palindrome substring search standard algorithm  (Manacher's Algorithm)

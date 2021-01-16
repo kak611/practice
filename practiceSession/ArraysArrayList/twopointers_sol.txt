@@ -1,0 +1,5 @@
+two Sum (sort & binarySearch OR using hashmap)
+3Sum (sort & binarySearch in O(n^2)
+Dutch National flag problem (3 solutions)
+summary range (from leetcode)
+Longest Substring Without Repeating Characters (from leetcode)

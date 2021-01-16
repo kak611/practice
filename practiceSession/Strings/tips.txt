@@ -1,0 +1,3 @@
+know how to convert string to int and vice-versa
+know how to use stringbuilder
+Two pointers are used in string related problems as well

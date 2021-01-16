@@ -1,0 +1,18 @@
+Solved:
+root-to-leaf path with given sum
+root-to-leaf sum of binary number
+
+Attempted:
+1. num of palindrome substrings. Solved O(n^3)
+
+Completed understanding of:
+1 DP
+2 Greedy Algorithms (one is coin change)
+median of incoming seq
+find longest/num of palindrome substring (2 solutions O(n^2) and O(n))
+BST insert/delete
+
+Incomplete:
+*System design theory reading
+2 solve DP problems (staircase & 2D array)
+

@@ -1,0 +1,5 @@
+Use min/max heap for problems that ask for k-smallest, k-largest, k-closest, kth element, k most frequent elements, etc.
+
+Know how to create a heap as well as heapsort
+
+Heaps are used to solve the problems that are related to dynamic data such as streaming online data, etc. Iterators are used over the input stream

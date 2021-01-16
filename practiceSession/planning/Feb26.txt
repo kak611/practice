@@ -1,0 +1,9 @@
+Rain water between pair of vertical lines (2 methods)		DONE
+Rain water trapping (4 methods)					DONE
+Minimum number of coins (2 methods, done bottom-up)		DONE
+Amount from coins Number of ways (yet to write code)		DONE
+Reverse words in a string (yet to write code) (1 method)	DONE
+Delete Nth node from last					DONE
+RomanToInt							DONE
+
+

@@ -1,0 +1,31 @@
+Most of the problems have similar pattern. Identify the pattern/strategy and organize problems
+(like k-subset problem strategy with and without each element)
+
+Stair case problem (using 1,2,3 steps)	DONE
+Stair case problem (using k steps)
+Fibonacci series using DP		DONE
+SubArray Max sum using DP		DONE
+
+American football game problem using DP
+Robot/2D array (from ctci)
+Robot/2D array (from book)		DONE
+knapsack problem			DONE
+word breaker/bedbathbeyond.com problem	DONE (1 method)
+	two methods: one from book, one as discussed with Taral (using Trie)
+travese 2D array using pattern		DONE
+Levenstein distance			DONE
+
+Buy and sell stocks k times using DP	DONE
+find longest palindromic substring
+find longest palindromic subsequence
+find longest non-decreasing subsequence (from book)
+longest common subsequence		DONE
+longest common substring
+coin change with two friends (from book)
+Coin changing problem (Using DP & Greedy Algoritm)
+Minimum number of jumps to end of array
+
+House robber
+Cherry picking
+Egg dropping
+Burt balloon

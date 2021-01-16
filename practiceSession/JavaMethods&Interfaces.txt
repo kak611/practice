@@ -1,0 +1,11 @@
+ArrayList methods vs LinkedList methods
+Iterable vs Iterator
+	how next() works & hasNext()?
+	why cant we call remove() before next()
+	is atEnd() method issue applicable to hasNext(). Issue is applicable. To resolve it, use dummynode.next = first
+		in atEnd(), it checks if curr.next == null. So the current element could not be processed..
+		it starts with next element if not end of list
+Comparator vs Comparable
+What is Dequeue interface & who uses it?
+How is linkedlist implemented in Java?
+	

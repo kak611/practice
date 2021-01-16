@@ -1,0 +1,4 @@
+Two types of problems on static data
+1. using binary search on arrays
+	Know the algorithm to search a key using binary search
+2. general search that uses binary search or randomization (random selection algorithm using pivot)

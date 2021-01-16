@@ -1,0 +1,9 @@
+comparable vs comparator vs equals (get very comfortable using these techniques)
+	Use comparable for natural ordering like Strings, Integers, Doubles, etc
+	Comparable is implemented by custom classes based on natural ordering which can do two things:
+		1. Check if two objects are ==. If not, then compare using natural ordering
+		2. compare first attribute. If its same, then compare on next attribute
+	Use comparator for ordering other than natural ordering. For e.g. compare strings based on length, 
+	OR Integer comparison should return result in reverse order (a > b ? -1 : ((a < b) ? 1 : 0))
+	Prefer creating anonymous class rather than new class with its static object
+		

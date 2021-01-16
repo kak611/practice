@@ -1,0 +1,16 @@
+1. Test framework  ESTest/AWT
+2. SmartDetect logic
+3. Tarpit logic
+4. Working of botman
+5. security-waf-226 organization and all optimization features:
+   1. smartDetect using fingerprint
+   2. Selector Parameterization
+   3. Simple Mode or AAG
+   4. Transformation Caching
+   5. Selector caching
+   6. Combined prefilter
+   7. Transformation grouping
+   8. FastRegexOptimization 
+   9. re2 vs pcre
+  10. Foreach optimization
+	

@@ -1,0 +1,17 @@
+Merge sort array recursive
+Merge sort array iteratively (there is no way to merge two sorted arrays in place in linear time)
+Merge sort linkedlist in place (two sorted linked lists can be merged in-place because conceptually, the insertion in middle of linkedlist is o(1) time) (14.9)
+insertion sort of array
+Insertion sort of linked list (14.9)
+Heapsort
+does arraylist uses linkedlist internally in sequential indexing way?
+
+Why is stable sort algorithm important?
+Why is insertion sort faster for small arrays of size <= 10
+Why is heap-sort an in-place algorithm given that it uses some space to maintain heap?
+why is quicksort worst case o(n2) and not that of merge and heap sort
+What is counting sort?
+What is radix sort?
+Why is Arrays.sort space complexity n/2 references to objects? what is the sorting algorithm it uses?
+Note that Collections.sort converts input to array and uses Arrays.sort internally and put it back in list.
+

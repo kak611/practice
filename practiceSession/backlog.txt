@@ -1,0 +1,38 @@
+Hashmap				DONE
+Merge sort			DONE
+Insertion sort			DONE
+Heapsort			DONE
+Merge sort linkedlist		DONE
+Insertion sort linkedlist	DONE
+Comparator vs comparable (read online and the sorting example)	DONE (need practice)
+Find most frequent queries	DONE
+
+
+== solving ==
+Merge two arrays with extra space in first array
+Intersection of two sorted arrays
+Find subarray covering all strings (Solve Again)
+
+Buy and sell (once, twice, any number of times, k times)
+64 bit parity problem (all 4 solutions)
+Find all subarrays
+Find max sum over subarrays (bruteforce + bruteforce with hashtable, divide and conquer chapter + leetcode solution, dp)
+Find subarray with given sum (two solutions on geekforgeeks. How is this different from solution for above problem)
+Hashset comparator for subarray {1,0,-1}...
+
+== reading ==
+is subarray, subset, combination the same?
+	Check Tushar Roy's solution for all combinations of string and compare with subset problem from recursion chapter
+Generate permutation of string (DONE) check difference in solution with the one given in recursion chapter.
+	Also, compare this with the one given in CTCI
+Red-black tree	(reading done.. need to know insertion and deletion)
+Trie data structure
+
+
+
+== backlog of problems to solve from chapters ==
+2 (sorting) + 1 (heap)
+6 bit manipulation + 2 search + 1 recursion using bitmask
+7 BST problems + 4 new array problems + 5 linkedlist problems + 2 stack problems to solve
+Java collections
+Final & static
